@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoEdge</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+<link rel="stylesheet" href="style.css"></head>
+<!-- 
+  Author: Tehrim Capitals🤍
+  This is my second HTML code / second attempt 😅
+  Date:7-oct-2025✨
+-->
+<body>
+<!--Header section-->
+  <header class="site-header">
+    <div class="logo">
+    <a href="#home"> 
+      <img src="image/logo.image1.jpg" alt="Logo" class="logo">
+      <span class="company-name">
+        <span class="crypto-bold">Crypto</span><span class="edge-thin">Edge</span></a>
+    </div>
+<nav>
+<span class="menu-toggle">&#9776;</span>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#top-selling">Top🔥</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+ </header>
+
+<!--Hero section-->
+  <section class="hero" id="home" >
+    <h1 class="hero-title">Boost Your Crypto Presence</h1>
+    <p class="hero-desc">Listing, Wallet Integration & Verification Services</p>
+        <div class="cta-buttons">
+          <a href="#top-selling">Get Started</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+
+  </section>
+       
+<!--Services Section-->
+  <section id="services">
+  <h2>Our Services</h2>
+  <p class="services-subtitle">
+    Professional crypto listing and verification service
+  </p>
+  <p class="price-note"><strong>IMPORTANT:</strong> Prices may vary over time due to market conditions.</p>
+<div class="service-grid">
+  <div class="service-card">
+  <div class="service-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+      <h3>CMC Trending (top 1-6)</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-wallet"></i></div>
+      <h3>Trust Wallet Integration</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-check-circle"></i></div>
+      <h3>CMC Circulating Supply Verification</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-check-double"></i></div>
+      <h3>CG Circulating Verification</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+      <h3>CMC Most Visited (a week)</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-coins"></i></div>
+      <h3>Eth Scan Ads</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-bullhorn"></i></div>
+      <h3>CG Banners</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+      <h3>4Chan Ads</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-angles-up"></i></div>
+      <h3>Twitter Trending</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-fire"></i></div>
+      <h3>Dextool Trending</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-unlock-keyhole"></i></div>
+      <h3>Dextool Unblacklisting</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-list-check"></i></div>
+      <h3>CMC + CG Listing FT</h3>
+<a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>    </div>
+
+    <div class="service-card more-services" onclick="openPopup()">
+      <div class="service-icon"><i class="fa-solid fa-layer-group"></i></div>
+      <h3>50+ More</h3>
+      <p class="price">Show</p>
+      <p class="price">Explore our full range of premium services</p>
+    </div>
+    
+    <!--Popup Modal-->
+<div id="servicesPopup" class="popup-overlay">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closePopup()">×</span>
+    <h2>Our Services</h2>
+    <p class="popup-intro">
+      Hi, we can help you with the below given services.  
+      If anything you want which is not written here, please let us know 🙂
+    </p>
+
+    <div class="popup-list">
+      <ul>
+        <li onclick="sendToTelegram('Trust Wallet Integration - $6-8k')">0. Trust Wallet Integration</li>
+        <li onclick="sendToTelegram('CMC Trending Top 4 - $14.2k')">1. CMC Trending Top 4</li>
+        <li onclick="sendToTelegram('CMC Most Visited - $350 for 24hrs / $2k for week')">2. CMC Most Visited</li>
+        <li onclick="sendToTelegram('CG 7 Countries Trending - $1300 for week')">3. CG 7 Countries Trending</li>
+        <li onclick="sendToTelegram('CN Token Banner + Trending - 2 Days Standard Package (0.6 ETH)')">4. CN Token Banner + Trending</li>
+        <li onclick="sendToTelegram('Dextool Trending - $5.5k (varies)')">5. Dextool Trending</li>
+        <li onclick="sendToTelegram('Twitter Shillers - $400 for week')">6. Twitter Shillers</li>
+        <li onclick="sendToTelegram('TG Mass DMs - $30 for 1k')">7. TG Mass DMs</li>
+        <li onclick="sendToTelegram('Moontok Trending + Banner - 0.7 ETH')">8. Moontok Trending + Banner</li>
+        <li onclick="sendToTelegram('Gecko Terminal Trending - $400')">9. Gecko Terminal Trending</li>
+        <li onclick="sendToTelegram('Reddit Trending - $300 for 24hrs / $400 weekly')">10. Reddit Trending</li>
+        <li onclick="sendToTelegram('ETH Scan Text Ads - $4k')">11. ETH Scan Text Ads</li>
+        <li onclick="sendToTelegram('CG Banners - $4k')">12. CG Banners</li>
+        <li onclick="sendToTelegram('Twitter Influencers - $300 to $4k')">13. Twitter Influencers</li>
+        <li onclick="sendToTelegram('Banners on 15+ Sites - $3.5k for week')">14. Banners on 15+ Sites</li>
+        <li onclick="sendToTelegram('Twitter Trending - $850/hr')">15. Twitter Trending</li>
+        <li onclick="sendToTelegram('5k Bullish Tweets - $2k')">16. 5k Bullish Tweets</li>
+        <li onclick="sendToTelegram('CMC Supply Verification - $3k')">17. CMC Supply Verification</li>
+        <li onclick="sendToTelegram('CG Supply Verification - $2k')">18. CG Supply Verification</li>
+        <li onclick="sendToTelegram('CG Special Category Sections - $800')">19. CG Special Category Sections</li>
+        <li onclick="sendToTelegram('CryptoCom Trending - $500')">20. CryptoCom Trending</li>
+        <li onclick="sendToTelegram('20 SubReddit Trendings - $400')">21. 20 SubReddit Trendings</li>
+        <li onclick="sendToTelegram('Listing in 10 Small Sites - $300')">22. Listing in 10 Small Sites</li>
+        <li onclick="sendToTelegram('Billboards')">23. Billboards</li>
+        <li onclick="sendToTelegram('Press Release - $800')">24. Press Release</li>
+        <li onclick="sendToTelegram('Gate News Feed - $100')">25. Gate News Feed</li>
+        <li onclick="sendToTelegram('Huobi News Feed - $100')">26. Huobi News Feed</li>
+        <li onclick="sendToTelegram('Bybit Votes')">27. Bybit Votes</li>
+        <li onclick="sendToTelegram('App Downloads')">28. App Downloads</li>
+        <li onclick="sendToTelegram('Sign Ups on Various Websites')">29. Sign Ups on Various Websites</li>
+        <li onclick="sendToTelegram('Votes on Various Websites')">30. Votes on Various Websites</li>
+        <li onclick="sendToTelegram('CMC Contract Migration')">31. CMC Contract Migration</li>
+        <li onclick="sendToTelegram('CMC Rebranding Info Update')">32. CMC Rebranding Info Update</li>
+        <li onclick="sendToTelegram('CMC Watchlist')">33. CMC Watchlist</li>
+        <li onclick="sendToTelegram('CG Watchlist')">34. CG Watchlist</li>
+        <li onclick="sendToTelegram('CMC Airdrop Listing')">35. CMC Airdrop Listing</li>
+        <li onclick="sendToTelegram('CMC Most Popular Trending')">36. CMC Most Popular Trending</li>
+        <li onclick="sendToTelegram('DexScreener Trending')">37. DexScreener Trending</li>
+        <li onclick="sendToTelegram('CMC Fast Track Listing')">38. CMC Fast Track Listing</li>
+        <li onclick="sendToTelegram('Dextool Unban')">39. Dextool Unban</li>
+        <li onclick="sendToTelegram('CG Trending')">40. CG Trending</li>
+        <li onclick="sendToTelegram('CeX Listings')">41. CeX Listings</li>
+        <li onclick="sendToTelegram('Binance Live AMA')">42. Binance Live AMA</li>
+        <li onclick="sendToTelegram('Huobi AMA')">43. Huobi AMA</li>
+        <li onclick="sendToTelegram('Twitter Space AMA')">44. Twitter Space AMA</li>
+        <li onclick="sendToTelegram('Market Making')">45. Market Making</li>
+        <li onclick="sendToTelegram('Launchpads')">46. Launchpads</li>
+        <li onclick="sendToTelegram('Binance Feed Articles')">47. Binance Feed Articles</li>
+        <li onclick="sendToTelegram('Twitter Followers')">48. Twitter Followers</li>
+        <li onclick="sendToTelegram('24/7 Online Bots (Members)')">49. 24/7 Online Bots (Members)</li>
+        <li onclick="sendToTelegram('CMC Bullish Comments')">50. CMC Bullish Comments</li>
+        <li onclick="sendToTelegram('CMC Community Verified Badge')">51. CMC Community Verified Badge</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="our-clients">
+  <h2>Our Clients</h2>
+  <p>Empowering crypto pioneers with next-gen marketing strategies, CryptoEdge drives the growth of tomorrow’s decentralized success stories.</p>
+  
+  <div class="logo-carousel">
+    <div class="logo-track">
+
+      <div class="logo-card"><img src="image/logo.1.jpg" alt="Token 1"></div>
+      <div class="logo-card"><img src="image/logo.2.jpg" alt="Token 2"></div>
+      <div class="logo-card"><img src="image/logo.3.jpg" alt="Token 3"></div>
+      <div class="logo-card"><img src="image/logo.4.jpg" alt="Token 4"></div>
+      <div class="logo-card"><img src="image/logo.5.jpg" alt="Token 5"></div>
+      <div class="logo-card"><img src="image/logo.6.jpg" alt="Token 6"></div>
+      <div class="logo-card"><img src="image/logo.7.jpg" alt="Token 7"></div>
+
+      <div class="logo-card"><img src="image/logo.1.jpg" alt="Token 1"></div>
+      <div class="logo-card"><img src="image/logo.2.jpg" alt="Token 2"></div>
+      <div class="logo-card"><img src="image/logo.3.jpg" alt="Token 3"></div>
+      <div class="logo-card"><img src="image/logo.4.jpg" alt="Token 4"></div>
+      <div class="logo-card"><img src="image/logo.5.jpg" alt="Token 5"></div>
+      <div class="logo-card"><img src="image/logo.6.jpg" alt="Token 6"></div>
+      <div class="logo-card"><img src="image/logo.7.jpg" alt="Token 7"></div>
+  </div>
+</section>
+
+<!-- 🔥 Top Selling Section -->
+<section id="top-selling">
+  <h2>Top Selling</h2>
+  <div class="top-selling-container">
+
+    <!--Card 1-->
+      <div class="top-selling-card">
+      <h3>CG 7 Countries Trending</h3>
+      <p class="price">$3499</p>
+      <p class="description">
+       Make your token go global! Trend across 7 top countries on CoinGecko, reaching investors and communities worldwide. Drive visibility, engagement, and credibility—perfect for projects aiming for fast, international traction for 7 days.
+      </p>
+      <a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>
+    </div>
+    <!--Card 2-->
+       <div class="top-selling-card">
+      <h3>Solana Package - Full Trend Domination</h3>
+      <p class="price">$4499</p>
+      <p class="description">
+        Get your project trending across top platforms worldwide – from Reddit, Twitter, GeckoTerminal, Crypto.com, and Stocktwits to Asian markets like Moontok & CnToken. Boost visibility, attract investors, and build trust with multi-channel exposure. Perfect for Solana projects ready to go viral.
+      </p>
+       <a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>
+    </div>
+    <!--Card 3-->
+    <div class="top-selling-card">
+      <h3>Web3 Wallets Listing</h3>
+      <p class="price">$1499</p>
+      <p class="description">
+        Binance Wallet<br>
+        OKX Wallet<br>
+        CoinBase Wallet<br>
+        Gate Wallet<br>
+        BitGet Wallet
+     </p>
+     <a href="javascript:void(0)" class="order-btn" onclick="sendServiceTelegram(this)">Book Now</a>
+    </div>
+  </div>
+</section>
+
+<!--Contact Section-->
+<section id="contact">
+  <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Telegram" required>
+      <textarea placeholder="Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+  <div class="contact-info">
+      <p><strong>Rehan (Founder/CEO):</strong> <a href="https://t.me/HitOnShadow" target="_blank">@HitOnShadow</a></p>
+      <p><strong>Tehrim (CMO/Developer):</strong> <a href="https://t.me/CryptoT66" target="_blank">@CryptoT66</a></p>
+      <p><strong>Twitter (X):</strong> <a href="https://x.com/CryptoEdgeCo?t=nIt72htyHYeyP3f_W9wHjQ&s=09" target="_blank">Follow us on X</a></p>
+  </div>
+</section>
+
+<!--Footer-->
+<footer>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="about.html">About</a>
+ </nav>
+ <p>© 2025 CryptoEdge. All rights reserved.</p>
+</footer>
+
+<!--java script-->
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+
+<script>
+  window.addEventListener("load", () => {
+    const hero = document.querySelector(".hero");
+    if (hero) hero.classList.add("show-text");
+  });
+  function sendServiceTelegram(button) {
+    const card = button.closest('.top-selling-card, .service-card, .service-card-popup');
+    if (!card) return;
+    const serviceName = card.querySelector('h3').innerText;
+    const message = encodeURIComponent(`Hey, I'm interested in ${serviceName}`);
+    window.open(`https://t.me/HitOnShadow?text=${message}`, "_blank");
+  }
+  function openPopup() {
+    document.getElementById("servicesPopup").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("servicesPopup").style.display = "none";
+  }
+  function sendServiceTelegram(button) {
+  const card = button.closest('.servicesPopup, .top-selling-card, .service-card');
+  if (!card) return;
+  const serviceName = card.querySelector('h3').innerText;
+
+  
+  let cleanName = serviceName.split('-')[0].trim(); 
+  const message = encodeURIComponent(`Hey, I'm interested in ${cleanName}`);
+  window.open(`https://t.me/HitOnShadow?text=${message}`, "_blank");
+ }
+function sendToTelegram(serviceName) {
+  let cleanName = serviceName.split('-')[0].trim(); 
+  const message = encodeURIComponent(`Hey, I'm interested in ${cleanName}`);
+  window.open(`https://t.me/HitOnShadow?text=${message}`, "_blank");
+}
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('nav ul.menu');
+    const menuLinks = document.querySelectorAll('.menu a');
+
+    if(toggle && menu) {
+      toggle.addEventListener('click', () => menu.classList.toggle('show'));
+      menuLinks.forEach(link => {
+        link.addEventListener('click', () => menu.classList.remove('show'));
+      });
+    }
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector('form');
+    if(!form) return;
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+
+      const name = document.querySelector('input[placeholder="Name"]').value;
+      const email = document.querySelector('input[placeholder="Email"]').value;
+      const telegram = document.querySelector('input[placeholder="Telegram"]').value;
+      const message = document.querySelector('textarea[placeholder="Message"]').value;
+
+      const text = encodeURIComponent(
+        `New Contact Form Submission:\nName: ${name}\nEmail: ${email}\nTelegram: ${telegram}\nMessage: ${message}`
+      );
+
+      const chat_id = "5089656713"; // numeric ID of your Telegram
+      const bot_token = "8292091455:AAEYZ_7ZadB_-2N4QI8RLrtPqWTNnUsJaV8"; // your bot token
+      const url = `https://api.telegram.org/bot${bot_token}/sendMessage?chat_id=${chat_id}&text=${text}`;
+
+      fetch(url)
+        .then(res => {
+          if(res.ok) alert('Message sent to Telegram!');
+          else alert('Error sending message');
+        })
+        .catch(err => alert('Error sending message'));
+
+      this.reset();
+    });
+  });
+</script>
+</body>
+</html>
